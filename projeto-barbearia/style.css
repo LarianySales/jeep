@@ -1,212 +1,78 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-@media only screen and (max-device-width: 1499px) {
-    .fundo { width:100%; }
-    }
-
-.fundo{
-    position: absolute;
-    width: 1499px;
-    height: 1064px;
-
-    object-fit: cover;
-  object-position: bottom;
-   
-}
-
-footer {
-    position: absolute;
-    width: 1499px;
-    height: 1064px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.829) 23.44%, rgba(0, 0, 0, 0.315) 43.75%, rgba(0, 0, 0, 0.5) 77.08%, rgb(0, 0, 0) 100%);
-    background-blend-mode: soft-light;
 }
 
 
 /* parte do 'bem-vindo' e logo */
 
-#texto-inicio {
-    display: flex;
-    justify-content: center;
-    padding-top: 40%;
-
-
+#texto-inicio{
+display: flex;
+justify-content: center;
+padding-top: 40%;
 }
 
-#texto-inicio h1 {
-    position: absolute;
-    width: 534px;
-    height: 120px;
-    left: 80px;
-    top: 318px;
 
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 98px;
-
+#but{
+    border-radius: 20px;
+}
+#but a{
+    text-decoration: none;
     color: #ffffff;
 }
 
-#texto-inicio p {
-    position: absolute;
-    width: 616px;
-    height: 188px;
-    left: 272px;
-    top: 378px;
 
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 126px;
 
-    color: #FFFFFF;
 
-}
 
-.wifi {
 
-    position: absolute;
-    width: 85px;
-    height: 84px;
-    left: 187px;
-    top: 397px;
-}
 
-.tes {
-    position: absolute;
-    width: 82px;
-    height: 93px;
-    left: 503px;
-    top: 462px;
 
-}
-
-/* descrição */
-.descricao {
-    position: absolute;
-    width: 597px;
-    height: 280px;
-    left: 58px;
-    top: 596px;
-
-    font-family: 'Tajawal', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-
-    color: #FFFFFF;
-}
 
 /* css do formulario PARTE DE LOGIN */
 
 
-form {
-
+form{
+  
     display: flex;
     flex-direction: column;
     padding-top: 35%;
     justify-content: center;
-
-
-
-
+    
 
 
 }
-
 /* stilo do input do formulRIO  */
-
-.inputs {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 404px;
-    height: 76px;
-    left: 901px;
-    top: 457px;
-}
-
 input {
     width: 350px;
-
 
     border: none;
     border: solid 1px #000;
     border-radius: 20px;
     padding: 15px;
 
-
-
+    
 }
-
 /* estilo do butao cadastrar-se */
-.cadastro {
-    box-sizing: border-box;
+button{
+    background-color: saddlebrown;
 
-    position: absolute;
-    width: 378px;
-    height: 86px;
-    left: 888px;
-    top: 275px;
-
-    background: #1B1407;
-    border: 3px solid #FFFFFF;
-    border-radius: 30px;
-
+    width: 350px;
+    font-size: 100px;
+    border: solid 3px #ffffff;
+    border-radius: 20px;
+    padding: 15px;
 }
 
-.cLink {
-    width: 322px;
-    height: 36px;
-    left: 983px;
-    top: 288px;
-
-    text-decoration: none;
-    font-family: 'Bentham';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 54px;
-
-    color: #ffffff;
-}
-
-#div-for {
+#div-for{
     display: flex;
     flex-direction: column;
     padding: 30px 0px;
 }
 
-.hr-1 {
 
-    position: absolute;
-    width: 570.01px;
-    height: 0px;
-    left: 526px;
-    top: 582px;
 
-    border: 1px solid #FFFFFF;
-    transform: rotate(89.6deg);
 
-}
 
-.hr-2 {
-    position: absolute;
-    width: 570.01px;
-    height: 0px;
-    left: 1050px;
-    top: 582px;
 
-    border: 1px solid #FFFFFF;
-    transform: rotate(89.6deg);
-}
