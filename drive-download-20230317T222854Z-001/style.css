@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* parte do 'bem-vindo' e logo */
+
+#texto-inicio{
+display: flex;
+justify-content: center;
+padding-top: 40%;
+}
+
+
+#but{
+    border-radius: 20px;
+}
+#but a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/* css do formulario PARTE DE LOGIN */
+
+
+form{
+  
+    display: flex;
+    flex-direction: column;
+    padding-top: 35%;
+    justify-content: center;
+    
+
+
+}
+/* stilo do input do formulRIO  */
+input {
+    width: 350px;
+
+    border: none;
+    border: solid 1px #000;
+    border-radius: 20px;
+    padding: 15px;
+
+    
+}
+/* estilo do butao cadastrar-se */
+button{
+    background-color: saddlebrown;
+
+    width: 350px;
+    font-size: 100px;
+    border: solid 3px #ffffff;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#div-for{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+
+
+
+
+
